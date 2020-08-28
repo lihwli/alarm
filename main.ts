@@ -1,4 +1,4 @@
-input.onPinReleased(TouchPin.P2, function () {
+input.onButtonPressed(Button.A, function () {
     Alarm += 1
     if (Alarm == 1) {
         basic.showIcon(IconNames.No)
